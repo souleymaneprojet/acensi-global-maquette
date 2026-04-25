@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!--
+        Projet : Maquette ACENSI Global
+        Auteur : Souleymane
+        data sciencist/analyst/developpeur
+        Objectif : proposer une version mondiale de la page d'accueil ACENSI Canada.
+        Technologie : HTML, CSS, JavaScript.
+        data 
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACENSI Global | Talents for digital excellence</title>
+
+    <!-- Police Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Feuille de style principale -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- ===================== HEADER ===================== -->
+    <!-- Le header contient le logo, le menu et le bouton d'action principal. -->
+    <header class="site-header" id="top">
+        <nav class="navbar container">
+            <a href="#top" class="logo" aria-label="Retour à l'accueil">
+                <span class="logo-mark">A</span>
+                <span class="logo-text">ACENSI <strong>Global</strong></span>
+            </a>
+
+            <!-- Bouton affiché uniquement sur mobile -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#expertises">Expertises</a></li>
+                <li><a href="#cases">Réalisations</a></li>
+                <li><a href="#careers">Carrières</a></li>
+                <li><a href="#contact" class="nav-cta">Nous contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===================== HERO ===================== -->
+    <!-- Première section visible : elle doit capter l'attention rapidement. -->
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <p class="eyebrow">Conseil • Applications • Data • Cloud</p>
+                    <h1>Des talents internationaux pour accélérer vos projets digitaux.</h1>
+                    <p class="hero-text">
+                        ACENSI Global accompagne les organisations dans la conception, le développement
+                        et l'évolution de solutions numériques fiables, performantes et humaines.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#expertises" class="btn btn-primary">Découvrir nos expertises</a>
+                        <a href="#contact" class="btn btn-secondary">Parler à un expert</a>
+                    </div>
+                </div>
+
+                <!-- Carte visuelle à droite : alternative moderne à une vidéo/image. -->
+                <div class="hero-card" aria-label="Carte de présence mondiale">
+                    <div class="map-card">
+                        <span class="pulse dot-canada"></span>
+                        <span class="pulse dot-france"></span>
+                        <span class="pulse dot-africa"></span>
+                        <span class="pulse dot-asia"></span>
+
+                        <div class="map-content">
+                            <p>Présence mondiale</p>
+                            <h2>Europe • Canada • Afrique • Asie</h2>
+                            <span>Une équipe connectée, proche des enjeux locaux.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== CHIFFRES CLÉS ===================== -->
+        <!-- Cette section rassure rapidement avec des indicateurs simples. -->
+        <section class="stats section-padding">
+            <div class="container stats-grid">
+                <article class="stat-card">
+                    <span class="stat-number">1700+</span>
+                    <p>Talents dans le monde</p>
+                </article>
+
+                <article class="stat-card">
+                    <span class="stat-number">90+</span>
+                    <p>Clients grands comptes</p>
+                </article>
+
+                <article class="stat-card">
+                    <span class="stat-number">20%</span>
+                    <p>Croissance moyenne annuelle</p>
+                </article>
+
+                <article class="stat-card">
+                    <span class="stat-number">4</span>
+                    <p>Continents connectés</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===================== À PROPOS ===================== -->
+        <!-- Présentation courte de l'entreprise et de la vision globale. -->
+        <section class="about section-padding" id="about">
+            <div class="container two-columns">
+                <div>
+                    <p class="section-tag">ACENSI en quelques mots</p>
+                    <h2>Un partenaire entre conseil stratégique et expertise technologique.</h2>
+                </div>
+
+                <div class="text-block">
+                    <p>
+                        Depuis plusieurs années, ACENSI accompagne ses clients dans leurs projets
+                        technologiques : conseil, développement d'applications, data, agilité, sécurité
+                        et transformation digitale.
+                    </p>
+                    <p>
+                        Cette version globale imagine une présence renforcée à l'international, avec une
+                        identité plus claire, plus moderne et orientée utilisateur.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== EXPERTISES ===================== -->
+        <!-- Les cartes permettent de rendre l'information lisible et rapide à comprendre. -->
+        <section class="expertises section-padding" id="expertises">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-tag">Expertise & savoir-faire</p>
+                    <h2>Des équipes spécialisées pour chaque étape de votre transformation.</h2>
+                </div>
+
+                <div class="cards-grid">
+                    <article class="service-card">
+                        <div class="icon">💼</div>
+                        <h3>Conseil métier</h3>
+                        <p>Analyse des besoins, cadrage projet, accompagnement stratégique et pilotage.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="icon">💻</div>
+                        <h3>Développement d'applications</h3>
+                        <p>Création d'applications web, mobiles et métiers avec des architectures fiables.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="icon">📊</div>
+                        <h3>Data & IA</h3>
+                        <p>Valorisation des données, tableaux de bord, automatisation et aide à la décision.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="icon">🔐</div>
+                        <h3>Agilité & sécurité</h3>
+                        <p>Organisation agile, DevOps, qualité logicielle, sécurité et amélioration continue.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== RÉALISATIONS ===================== -->
+        <!-- Section inspirée des cas d'usage du site d'origine. -->
+        <section class="cases section-padding" id="cases">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-tag">Réalisations</p>
+                    <h2>Des solutions concrètes pour des secteurs exigeants.</h2>
+                </div>
+
+                <div class="case-list">
+                    <article class="case-item">
+                        <span>01</span>
+                        <div>
+                            <h3>Transformation cloud & DevOps</h3>
+                            <p>Automatisation des processus, intégration continue et amélioration de la performance.</p>
+                        </div>
+                    </article>
+
+                    <article class="case-item">
+                        <span>02</span>
+                        <div>
+                            <h3>Applications métiers</h3>
+                            <p>Développement de plateformes web robustes pour accompagner les équipes opérationnelles.</p>
+                        </div>
+                    </article>
+
+                    <article class="case-item">
+                        <span>03</span>
+                        <div>
+                            <h3>Projets data</h3>
+                            <p>Exploitation des données pour mieux comprendre l'activité et optimiser la prise de décision.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== CARRIÈRES ===================== -->
+        <!-- Bloc humain : important pour une entreprise de conseil et recrutement. -->
+        <section class="careers section-padding" id="careers">
+            <div class="container career-box">
+                <div>
+                    <p class="section-tag">Vivez l'esprit ACENSI</p>
+                    <h2>Un environnement international où les talents grandissent.</h2>
+                    <p>
+                        Nous imaginons un espace où chaque consultant peut apprendre, contribuer
+                        et évoluer sur des projets ambitieux, dans un cadre collaboratif.
+                    </p>
+                </div>
+
+                <a href="#contact" class="btn btn-light">Rejoindre l'aventure</a>
+            </div>
+        </section>
+
+        <!-- ===================== CONTACT ===================== -->
+        <!-- Formulaire simple pour montrer une logique d'interaction utilisateur. -->
+        <section class="contact section-padding" id="contact">
+            <div class="container contact-grid">
+                <div>
+                    <p class="section-tag">Contact</p>
+                    <h2>Construisons votre prochaine solution digitale.</h2>
+                    <p>
+                        Cette maquette montre comment une page mondiale pourrait guider rapidement
+                        un visiteur vers les expertises, les réalisations et le contact.
+                    </p>
+                </div>
+
+                <form class="contact-form">
+                    <label>
+                        Nom complet
+                        <input type="text" placeholder="Votre nom" required>
+                    </label>
+
+                    <label>
+                        Email
+                        <input type="email" placeholder="votre.email@exemple.com" required>
+                    </label>
+
+                    <label>
+                        Message
+                        <textarea placeholder="Votre besoin en quelques mots" rows="5" required></textarea>
+                    </label>
+
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="#top" class="logo footer-logo">
+                    <span class="logo-mark">A</span>
+                    <span class="logo-text">ACENSI <strong>Global</strong></span>
+                </a>
+                <p>Maquette réalisée pour proposer une version mondiale de la page d'accueil ACENSI.</p>
+            </div>
+
+            <div>
+                <h4>Navigation</h4>
+                <a href="#about">À propos</a>
+                <a href="#expertises">Expertises</a>
+                <a href="#careers">Carrières</a>
+            </div>
+
+            <div>
+                <h4>Contact Canada</h4>
+                <p>Montréal, QC</p>
+                <p>hello@acensi.ca</p>
+                <p>+1 (514) 416 0509</p>
+            </div>
+        </div>
+
+        <div class="container copyright">
+            <p>© 2026 ACENSI Global — Maquette non officielle réalisée dans un cadre de recrutement.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
